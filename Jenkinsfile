@@ -10,4 +10,7 @@ node {
    // Mark the code build 'stage'....
    stage 'Build'
    sh "${grdlHome}/bin/gradle build"
+   
+   stage 'Test'
+   sh "${grdlHome}/bin/gradle test"
 }
