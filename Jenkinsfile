@@ -9,5 +9,5 @@ node {
 
    // Mark the code build 'stage'....
    stage 'Build'
-   sh "${grdlHome}/bin/gradle clean install"
+   sh "${grdlHome}/bin/gradle"
 }
